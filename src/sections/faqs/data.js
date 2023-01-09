@@ -9,7 +9,7 @@ const data = [
     id: 2,
     question: 'How long will my project take to complete?',
     answer:
-      'This depends on the complexity of the project, your available, and your payment. Once you have this sorted out, I will give you a completion date.'
+      'This depends on the complexity of the project, and your available. Once you have this sorted out, I will give you a completion date.'
   },
   {
     id: 5,
@@ -19,21 +19,21 @@ const data = [
   },
   {
     id: 4,
-    question: 'How much do you charge for an average website or app?',
+    question: 'Which music styles does Matheus like?',
     answer:
-      "Once again, this depends. But my prices are affordable so you're good."
+      "I like several bands and artists, from Metallica to Elis Regina, I'm even a huge fan of the Beatles and Amy Winehouse, but my main taste is Rock 'n Roll"
   },
   {
     id: 3,
-    question: "What's your payment plan?",
+    question: 'What does Matheus like to study?',
     answer:
-      'Payment is divided into 3. An initial 30% upfront payment to get me started once all the details of the projec is set, 40% once the project is completed, and 30% once the project is delivered.'
+      'I really like studying about history, about personalities, as well as programming and technology'
   },
   {
     id: 6,
-    question: "What if the project doesn't turn out good?",
+    question: 'Tell me about some interesting facts about Matheus?',
     answer:
-      'You will be a part of the process from the start. You will know how the whole project is going until the end. And I will make sure to give you the best.'
+      "Ok, let's go! I already travel 40 days in Europe for an exchange program, I really like coffee, physical exercises, I have 11 tattoos, including a Java tattoo. I have an arm closed on Greek mythology, I have an Amy Winehouse tattoo, and no, I'm not related to Ayrton Senna."
   }
 ]
 
