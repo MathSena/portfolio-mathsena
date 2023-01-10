@@ -6,8 +6,7 @@ import Portfolio from './sections/portfolio/Portfolio';
 import FAQs from './sections/faqs/FAQs';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
-import FloatingNav from './sections/floating-nav/FloatingNav';
-
+import Experiences from './sections/experience/Experiences';
 
 const App = () => {
   return (
@@ -17,6 +16,7 @@ const App = () => {
         <About />
         <Services />
         <Portfolio />
+        <Experiences />
         <FAQs />
         <Contact />
         <Footer />
