@@ -8,10 +8,13 @@ import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import Experiences from './sections/experience/Experiences';
 import Modal from './components/Modal';
+import Theme from './theme/Theme';
+import { useThemeContext } from './context/theme-context';
 
 const App = () => {
+  const {themeState} = useThemeContext();
   return (
-    <main>
+    <main className={`${themeState.primary} ${themeState.background}`}>
         <Navbar />
         <Header />
         <About />
@@ -22,6 +25,7 @@ const App = () => {
         <Contact />
         <Footer />
         <Modal /> 
+        <Theme />
         {/* <FloatingNav /> */}
     </main>
   )
