@@ -9,7 +9,7 @@ import Footer from './sections/footer/Footer';
 import Experiences from './sections/experience/Experiences';
 import FloatingNav from './sections/floating-nav/FloatingNav';
 import Modal from './components/Modal';
-import Theme from './theme/Theme';
+
 import { useThemeContext } from './context/theme-context';
 import {useRef, useState, useEffect} from 'react'
 
@@ -17,7 +17,7 @@ const App = () => {
   const {themeState} = useThemeContext();
 
   const mainRef = useRef();
-  const [showFloatingNav, setShowFloatingNav] = useState(true);
+  const [setShowFloatingNav] = useState(true);
   const [siteYPostion, setSiteYPosition] = useState(0)
 
   const showFloatingNavHandler = () => {
@@ -56,14 +56,12 @@ const App = () => {
         <About />
         <Services />
         <Portfolio />
-        <Experiences />
-        <FAQs />
         <Contact />
         <Footer />
         <Modal /> 
-        <Theme />
+
         <FloatingNav />
-        {showFloatingNav && <FloatingNav/>}
+  
   
     </main>
   )

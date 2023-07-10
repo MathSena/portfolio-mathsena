@@ -1,10 +1,9 @@
-const data = [
-  { id: 1, link: '#', title: 'Home' },
-  { id: 2, link: '#about', title: 'About' },
-  { id: 3, link: '#services', title: 'Services' },
-  { id: 4, link: '#portfolio', title: 'Portfolio' },
-  { id: 5, link: '#experiences', title: 'Experience' },
-  { id: 6, link: '#contact', title: 'Contact' }
+const navLinks = [
+  { id: 'home', link: '#', title: 'Home' },
+  { id: 'about', link: '#about', title: 'About' },
+  { id: 'services', link: '#services', title: 'Services' },
+  { id: 'portfolio', link: '#portfolio', title: 'Portfolio' },
+  { id: 'contact', link: '#contact', title: 'Contact' }
 ]
 
-export default data
+export default navLinks
