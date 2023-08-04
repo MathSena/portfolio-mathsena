@@ -16,7 +16,7 @@
   --color-primary: hsl(var(--primary-hue), 80%, 41%);
   --color-white: hsl(0, 50%, var(--white-lightness));
   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
-  --color-black: hsl(var(--primary-hue), 50%, var(--black-lightness));
+  --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
   --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
   /* GENERAL CONTAINER VARIABLES */
