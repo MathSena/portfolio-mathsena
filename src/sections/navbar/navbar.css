@@ -1,5 +1,5 @@
 nav {
-  width: 100%;
+  width: 100vw;
   height: 5rem;
   display: grid;
   place-items: center;
@@ -9,7 +9,7 @@ nav {
   left: 0;
   z-index: 9;
   box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
-  transition: background var(--transition);
+  transition: var(--transition);
 }
 
 .nav__container {
@@ -36,6 +36,7 @@ nav {
 /* HIDE NAV MENU ON TABLETS AND PHONES */
 @media screen and (max-width: 1024px) {
   .nav__menu {
+    display: none; 
     flex-direction: column;
     gap: 1rem;
   }
