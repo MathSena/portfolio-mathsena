@@ -1,32 +1,32 @@
-import { SiAdobexd } from 'react-icons/si'
-import { RiReactjsLine } from 'react-icons/ri'
-import { FaServer } from 'react-icons/fa'
-import { AiFillAppstore } from 'react-icons/ai'
+import { DiFirebase } from "react-icons/di";
+import { DiJava } from "react-icons/di";
+import { DiReact } from "react-icons/di";
+import { DiAtlassian  } from 'react-icons/di'
 
 const data = [
   {
     id: 1,
-    icon: <SiAdobexd />,
-    title: 'Data Stores',
-    desc: 'SQL, DB2, Oracle, MySQL, PostgreSQL, MongoDB'
+    icon: <DiFirebase />,
+    title: 'Database',
+    desc: 'DB2, Oracle, MySQL, PostgresSQL, MongoDB'
   },
   {
     id: 2,
-    icon: <RiReactjsLine />,
+    icon: <DiReact />,
     title: 'Frontend Development',
-    desc: 'HTML, CSS, Javascript, React, SASS, Boostrap, Material-UI'
+    desc: 'HTML, CSS, Javascript, React, Boostrap, Material-UI, AngulaJS'
   },
   {
     id: 3,
-    icon: <FaServer />,
+    icon: <DiJava />,
     title: 'Backend Development',
-    desc: 'Java, Spring, NodeJS, COBOL, Dart '
+    desc: 'Java, Spring, NodeJS, COBOL, Dart, Python'
   },
   {
     id: 4,
-    icon: <AiFillAppstore />,
+    icon: <DiAtlassian />,
     title: 'Tools',
-    desc: 'Git, Jira, Agile(Scrum), Azure Devops, Docker'
+    desc: 'Git, Jira, Agile, Docker, Kubernetes, SonarQube, Nexus, AWS, Azure'
   }
 ]
 
