@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <h3  data-aos="fade-up">Matheus Sena</h3>
         <p  data-aos="fade-up">
-        Hello! Welcome to my website! You are a click away from building your software today!
+          Hi there! 👋  May the code be with you! 🚀✨
         </p>
         <div className="header__cta"  data-aos="fade-up">
           <a href="#contact" className='btn primary'>Let's Talk</a>
