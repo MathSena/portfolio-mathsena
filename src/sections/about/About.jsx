@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImage from '../../assets/about.jpg';
+import AboutImage from '../../assets/matheus.jpeg';
 import CV from '../../assets/cv.pdf';
 import { HiDownload } from 'react-icons/hi';
 import cardData from './cardData';

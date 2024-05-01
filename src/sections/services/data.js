@@ -1,7 +1,7 @@
-import { DiFirebase } from "react-icons/di";
-import { DiJava } from "react-icons/di";
-import { DiReact } from "react-icons/di";
-import { DiAtlassian  } from 'react-icons/di'
+import { DiFirebase } from 'react-icons/di'
+import { DiJava } from 'react-icons/di'
+import { DiReact } from 'react-icons/di'
+import { DiAtlassian } from 'react-icons/di'
 
 const data = [
   {
@@ -14,7 +14,7 @@ const data = [
     id: 2,
     icon: <DiReact />,
     title: 'Frontend Development',
-    desc: 'HTML, CSS, Javascript, React, Boostrap, Material-UI, AngulaJS'
+    desc: 'HTML, CSS, Javascript, React, Boostrap, Material-UI, AngularJS'
   },
   {
     id: 3,
